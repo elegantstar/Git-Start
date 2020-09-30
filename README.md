@@ -121,6 +121,18 @@ git pull origin master      # git pull [alias] [branch]
 git status
 ```
 
+### git merge
+
+- 서로 다른 브랜치에 있는 내용을 병합할 때 사용하는 명령어
+- develop --> master
+
+```bash
+git checkout master       # 병합하고자 하는 브랜치로 이동
+git merge develop         # develop에 있는 내용을 master로 병합한다.
+```
+
+</br><hr>
+
 ## 항목
 
 - 항목1
